@@ -66,19 +66,19 @@ En Python, los operadores aritméticos se usan para hacer operaciones matemátic
 🔢 Operadores aritméticos básicos
 
 
-1. + (Suma)
+1. (Suma +)
 
-2. - (Resta)
+2. (Resta -)
 
-3. * (Multiplicación)
+3. (Multiplicación *)
 
-4. / (División)
+4. (División /)
 
-5. // (División entera)
+5. (División entera //)
 
-6. % (Módulo o resto)
+6. (Módulo o resto %)
 
-7. ** (Potencia)
+7. (Potencia **)
 
 ## Algunos comandos
 

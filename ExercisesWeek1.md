@@ -105,5 +105,84 @@ _Si se quiere entender del todo, es mejor investigar aparte._
 
 En ocasiones me pasaba lo siguiente:
 
-No verificar que hace bien un comando antes de usarlo
+• No verificar que hace bien un comando antes de usarlo.
+
+• Errores comunes de sintaxis por escribir rápido.
+
+• No utilizaba bien la lógica de programación (por ejemplo, usaba elif cuando no había necesidad y era mejor utilizar un else).
+
+_seguiré añadiendo errores que cometa_
+
+## Lógica de programación 
+
+*Comparar datos*
+
+Algunos operadores de comparación:
+
+== igualdad: Comprueba si dos valores son iguales.
+
+!= desigualdad: Comprueba si dos valores son diferentes.
+
+> mayor que: Comprueba si un valor es mayor que otro.
+
+< menor que: Comprueba si un valor es menor que otro.
+
+>= mayor o igual que: Comprueba si un valor es mayor o igual que otro.
+
+<= menor o igual que: Comprueba si un valor es menor o igual que otro.
+
+_Nota: Asegurarme que los datos que este comparando sean del mismo tipo._
+
+*Toma de decisiones*
+
+Capacidad de un programa de tomar decisiones basadas en condiciones específicas. 
+
+Estructura de control de flujo (if): Si la condición es verdadera, se ejecuta el código dentro del bloque (if).
+
+Estructura de control de flujo (elif): Se utiliza para tomar decisiones basadas en múltiples condiciones. Si la condición (if) es falsa, se evalúa la condición (elif).
+
+Estructura de control de flujo (else): Se utiliza para ejecutar código cuando la condición (if) es falsa
+
+*Combinación de condiciones*
+
+Técnica para evaluar múltiples condiciones y tomar decisiones basadas en ellas. 
+
+Algunos operadores lógicos:
+
+(and): Se utiliza para combinar dos condiciones que deben ser verdaderas para que la condición general sea verdadera.
+
+(or): Se utiliza para combinar dos condiciones donde al menos una de ellas debe ser verdadera para que la condición general sea verdadera.
+
+(not): Se utiliza negar una condición.
+
+_Dentro de visual studio code podemos añadir comentarios utilizando "#" antes de el comentario que deseemos dejar, muy útil para dejar evidenciado la información y muchasas cosas._
+
+## ¿Qué es la identacion y porque es tan importante en python?
+
+Identacion » Se refiere al uso de espacios o tabuladores para identar líneas de código y definir bloques de código.
+
+¿Por qué es tan importante en python?
+• Define bloques de código.
+• Determina la estructura del código.
+• Evita errores de sintaxis.
+
+## Buenas prácticas al nombrar variables 
+
+Un buen nombre de variable debe de ser claro.
+
+Al nombrar variables siempre debo de: 
+• Utilizar nombres descriptivos.
+• Utilizar nombres en minúsculas con "_" para nombres compuestos.
+• Evitar nombres ambiguos.
+• Utilizar nombres que indiquen el tipo de dato. 
+• Escribirlos en inglés.
+
+## ¿Qué hacer cuando algo no funciona?
+
+Como nos han repetido ya en varias ocasiones la solución nunca será preguntar primero por la respuesta completa sino más bien despertar ese sentido curioso que que representa a los programadores.
+
+Revisar el error, no feustrarme, investigar y si al final de todo eso el error persiste ahí si debo de preguntar.
+
+
+
 

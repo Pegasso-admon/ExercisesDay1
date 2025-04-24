@@ -133,7 +133,7 @@ Algunos operadores de comparación:
 
 _Nota: Asegurarme que los datos que este comparando sean del mismo tipo._
 
-*Toma de decisiones*
+### Toma de decisiones
 
 Capacidad de un programa de tomar decisiones basadas en condiciones específicas. 
 
@@ -143,7 +143,7 @@ Estructura de control de flujo (elif): Se utiliza para tomar decisiones basadas 
 
 Estructura de control de flujo (else): Se utiliza para ejecutar código cuando la condición (if) es falsa
 
-*Combinación de condiciones*
+### Combinación de condiciones 
 
 Técnica para evaluar múltiples condiciones y tomar decisiones basadas en ellas. 
 
@@ -181,8 +181,22 @@ Al nombrar variables siempre debo de:
 
 Como nos han repetido ya en varias ocasiones la solución nunca será preguntar primero por la respuesta completa sino más bien despertar ese sentido curioso que que representa a los programadores.
 
-Revisar el error, no feustrarme, investigar y si al final de todo eso el error persiste ahí si debo de preguntar.
+Revisar el error, no frustrarme, investigar y si al final de todo eso el error persiste ahí si debo de preguntar.
 
+## Esctructuras de control 
 
+Repetir acciones con bucles: En python los bucles me permiten ejecutar un bloque de código varias veces.
+Es util cuando necesito repetir una acción, sin tener que escribir el código una y otra vez.
 
+Bucles más comunes en python: 
+
+1. Bucle "for": Es útil cuando sabes de antemano cuántas veces deseas que se ejecute el bloque de código o cuando deseas recorrer una secuencia, como una lista, un rango de números, o una cadena de texto.
+
+2. Bucle "while": Se utiliza cuando no sabes cuántas veces se repetirá el ciclo, pero sabes que debe continuar repitiéndose mientras se cumpla una condición.
+
+Diferencias clave:
+
+    El for es ideal cuando sabes cuántas veces quieres repetir algo o cuando estás trabajando con secuencias (listas, rangos, etc.).
+
+    El while es más flexible, y se usa cuando no sabes exactamente cuántas veces se repetirá, pero necesitas que el ciclo continúe mientras se cumpla una condición.
 

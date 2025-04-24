@@ -119,17 +119,17 @@ _seguiré añadiendo errores que cometa_
 
 Algunos operadores de comparación:
 
-== igualdad: Comprueba si dos valores son iguales.
+• == igualdad: Comprueba si dos valores son iguales.
 
-!= desigualdad: Comprueba si dos valores son diferentes.
+•!= desigualdad: Comprueba si dos valores son diferentes.
 
-> mayor que: Comprueba si un valor es mayor que otro.
+• > mayor que: Comprueba si un valor es mayor que otro.
 
-< menor que: Comprueba si un valor es menor que otro.
+• < menor que: Comprueba si un valor es menor que otro.
 
->= mayor o igual que: Comprueba si un valor es mayor o igual que otro.
+• >= mayor o igual que: Comprueba si un valor es mayor o igual que otro.
 
-<= menor o igual que: Comprueba si un valor es menor o igual que otro.
+• <= menor o igual que: Comprueba si un valor es menor o igual que otro.
 
 _Nota: Asegurarme que los datos que este comparando sean del mismo tipo._
 
@@ -137,11 +137,11 @@ _Nota: Asegurarme que los datos que este comparando sean del mismo tipo._
 
 Capacidad de un programa de tomar decisiones basadas en condiciones específicas. 
 
-Estructura de control de flujo (if): Si la condición es verdadera, se ejecuta el código dentro del bloque (if).
+• Estructura de control de flujo (if): Si la condición es verdadera, se ejecuta el código dentro del bloque (if).
 
-Estructura de control de flujo (elif): Se utiliza para tomar decisiones basadas en múltiples condiciones. Si la condición (if) es falsa, se evalúa la condición (elif).
+• Estructura de control de flujo (elif): Se utiliza para tomar decisiones basadas en múltiples condiciones. Si la condición (if) es falsa, se evalúa la condición (elif).
 
-Estructura de control de flujo (else): Se utiliza para ejecutar código cuando la condición (if) es falsa
+• Estructura de control de flujo (else): Se utiliza para ejecutar código cuando la condición (if) es falsa
 
 ### Combinación de condiciones 
 
@@ -149,11 +149,11 @@ Técnica para evaluar múltiples condiciones y tomar decisiones basadas en ellas
 
 Algunos operadores lógicos:
 
-(and): Se utiliza para combinar dos condiciones que deben ser verdaderas para que la condición general sea verdadera.
+• (and): Se utiliza para combinar dos condiciones que deben ser verdaderas para que la condición general sea verdadera.
 
-(or): Se utiliza para combinar dos condiciones donde al menos una de ellas debe ser verdadera para que la condición general sea verdadera.
+• (or): Se utiliza para combinar dos condiciones donde al menos una de ellas debe ser verdadera para que la condición general sea verdadera.
 
-(not): Se utiliza negar una condición.
+• (not): Se utiliza negar una condición.
 
 _Dentro de visual studio code podemos añadir comentarios utilizando "#" antes de el comentario que deseemos dejar, muy útil para dejar evidenciado la información y muchasas cosas._
 
@@ -162,6 +162,7 @@ _Dentro de visual studio code podemos añadir comentarios utilizando "#" antes d
 Identacion » Se refiere al uso de espacios o tabuladores para identar líneas de código y definir bloques de código.
 
 ¿Por qué es tan importante en python?
+
 • Define bloques de código.
 • Determina la estructura del código.
 • Evita errores de sintaxis.
@@ -171,6 +172,7 @@ Identacion » Se refiere al uso de espacios o tabuladores para identar líneas d
 Un buen nombre de variable debe de ser claro.
 
 Al nombrar variables siempre debo de: 
+
 • Utilizar nombres descriptivos.
 • Utilizar nombres en minúsculas con "_" para nombres compuestos.
 • Evitar nombres ambiguos.

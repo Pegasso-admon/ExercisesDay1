@@ -202,3 +202,54 @@ Diferencias clave:
 
     El while es más flexible, y se usa cuando no sabes exactamente cuántas veces se repetirá, pero necesitas que el ciclo continúe mientras se cumpla una condición.
 
+## Salir de un bucle antes tiempo
+
+En Python, las instrucciones break y continue te permiten controlar el flujo de un bucle de manera más flexible, permitiendo salir de un bucle antes de que termine todas sus iteraciones o saltarse algunas iteraciones sin ejecutar todo el bloque de código.
+
+### 1. break
+
+La instrucción break se utiliza para salir de un bucle antes de que termine normalmente. Es decir, cuando se encuentra con un break, el bucle se termina inmediatamente, y el flujo del programa continúa con la siguiente línea de código después del bucle.
+
+### 2. continue
+
+La instrucción continue se utiliza para saltarse el resto del código dentro del bucle y pasar a la siguiente iteración. Esto significa que cuando el programa encuentra un continue, no ejecuta el bloque de código que sigue después de la instrucción continue en esa iteración, sino que vuelve al principio del bucle y evalúa la siguiente iteración.
+
+Resumen:
+
+    break: Termina completamente el bucle, no importa si quedan más iteraciones por hacer.
+
+    continue: Salta al inicio del bucle y empieza la siguiente iteración, omitiendo el código restante de la iteración actual.
+
+¿Cuándo usarlos?
+
+    Debo usar break cuando quieras interrumpir un bucle basado en alguna condición.
+
+    Debo usar continue cuando quieras saltarte ciertas iteraciones sin terminar el bucle por completo.
+
+## Manejo básico de errores 
+
+El manejo de errores es una parte muy importante de la programación, porque te permite controlar los errores que pueden ocurrir durante la ejecución de tu programa y evitar que se "caiga" o deje de funcionar de manera inesperada. En Python, para manejar errores utilizamos el bloque try-except.
+
+### ¿Qué es un bloque try-except?
+
+El bloque try-except te permite intentar ejecutar un bloque de código (el bloque try). Si ocurre un error (excepción) en ese bloque, el flujo del programa se detiene y pasa al bloque except, donde puedes manejar el error de una forma controlada, mostrando un mensaje de error, corrigiendo el problema, o haciendo otra acción para evitar que el programa se detenga.
+
+Bloques adicionales: else y finally
+
+Además de try y except, hay dos bloques adicionales que puedes usar para hacer que tu manejo de errores sea más preciso:
+
+    else: Este bloque se ejecuta si no se produce ningún error en el bloque try.
+
+    finally: Este bloque se ejecuta siempre, independientemente de si ocurrió o no un error, y es útil para realizar tareas de limpieza (como cerrar archivos o liberar recursos).
+
+Resumen de las partes:
+
+    try: Intentas ejecutar un bloque de código que puede causar un error.
+
+    except: Capturas y manejas el error si ocurre.
+
+    else: Ejecuta si no hay errores en el bloque try.
+
+    finally: Siempre se ejecuta, independientemente de si hubo error o no, ideal para limpiar recursos.
+
+_Esta página está en construcción, seguiré añadiendo cosas importantes._

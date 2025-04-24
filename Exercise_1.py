@@ -1,6 +1,6 @@
 #Exercise number 1
 #I need to ask the user for his age
-#If it the age it is above from 18 
+#If the age it is above from 18 
 
 edad=int(input("Please input your age:"))
 

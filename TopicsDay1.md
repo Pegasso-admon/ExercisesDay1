@@ -44,7 +44,7 @@ En Python, los pasos básicos son:
 
 En mis palabras: 
 
-    
+    Conjunto de pasos lógicos escritos en un lenguaje que el computador interpreta y hace lo que le pida.
 
 ## ¿Qué es una variable?
 Una variable es como una cajita donde puedes guardar información para usarla más adelante.
@@ -52,13 +52,32 @@ Puedes ponerle un nombre a esa cajita y meterle lo que quieras: un número, un t
 
 ## Tipos de datos
 
-Str: En Python, str es el tipo de dato que representa cadenas de texto (del inglés string). Se usa para guardar y trabajar con texto, como palabras, frases, letras, etc.
+**Str:**  En Python, str es el tipo de dato que representa cadenas de texto (del inglés string). Se usa para guardar y trabajar con texto, como palabras, frases, letras, etc.
 
-int: En Python, int es el tipo de dato que representa números enteros (integer en inglés). Es decir, números sin decimales.
+    # String simple
+    cadena1 = "Hola, mundo"
+    cadena2 = 'Esta es otra cadena'
+    print(cadena1)  # Salida: Hola, mundo
+    print(cadena2)  # Salida: Esta es otra cadena
 
-float: En Python, float es el tipo de dato que representa números con decimales (viene de floating point number en inglés).
+    # String con comillas dentro
+    cadena3 = "El gato dijo: \"Miau\""
+    cadena4 = 'El perro ladró: \'Guau\''
+    print(cadena3)  # Salida: El gato dijo: "Miau"
+    print(cadena4)  # Salida: El perro ladró: 'Guau'
 
-bool: En Python, bool es el tipo de dato que representa valores lógicos, o sea, verdadero o falso.
+    # String multilínea
+    cadena5 = """Este es un string
+    que ocupa varias líneas."""
+    print(cadena5)
+
+**int:** En Python, int es el tipo de dato que representa números enteros (integer en inglés). Es decir, números sin decimales.
+
+    
+
+**float:** En Python, float es el tipo de dato que representa números con decimales (viene de floating point number en inglés).
+
+**bool:** En Python, bool es el tipo de dato que representa valores lógicos, o sea, verdadero o falso.
 
 Los dos valores posibles de un bool son:
 

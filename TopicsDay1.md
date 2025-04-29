@@ -6,6 +6,8 @@
 
 Proceso de diseñar, escribir, probar y mantener el código fuente de programas informáticos.
 
+    Si fuera a describir desde mis palabras el proceso de programar, diría que es como el conjunto de instrucciones que le estoy dando al computador para hacer lo que le estoy pidiendo. 
+
 ## ¿Qué es Python y para qué sirve?
 
 Python es un lenguaje de programación orientado a objetos.
@@ -21,6 +23,8 @@ Python tiene muchas utilidades como:
 
 Es un lenguaje de código abierto y de alto nivel.
 
+    Desde mi punto de vista python es un lenguaje de programación sencillo de entender y de escribir debido a su similitud con el inglés, tomando en cuenta que es un lenguaje de alto nivel.
+
 ## ¿Qué es un lenguaje de alto nivel?
 
 Por decirlo de cierta manera un lenguaje de alto nivel es aquel que se "comunica" más lejano al hardware. Se asemeja al lenguaje humano (es mas sencillo de entender).
@@ -34,9 +38,13 @@ En Python, los pasos básicos son:
 
     Escribes el código en un archivo (por ejemplo: programa.py)
 
-    Abres una terminal (como lo estás haciendo en Visual Studio Code)
+    Abres una terminal 
 
     Escribes el comando para ejecutarlo:
+
+En mis palabras: 
+
+    
 
 ## ¿Qué es una variable?
 Una variable es como una cajita donde puedes guardar información para usarla más adelante.
